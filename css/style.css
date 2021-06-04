@@ -9,7 +9,7 @@ body {
     height: 100%;
 }
 
-header {
+.header {
     position: relative;
     display: flex;
     justify-content: center;
@@ -23,13 +23,13 @@ header {
     font-family: 'Open Sans', sans-serif;
 }
 
-main{
+.main{
     position: relative;
-    margin: 10%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    margin: 10%;
     height:80%;
     font-size: 1.2rem;
     text-align: center;
@@ -130,34 +130,46 @@ main{
     height: 3.8rem;
     width: 3.8rem;
     align-self: center;
+    margin-bottom: 0.5rem;
+    border: 0.1rem solid black;
+}
+.ul_horizontal{
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+    height:24%;
+    border: 0.1rem solid black;
+    background-color: white;
 }
 
-.ul_horizontal{
-    height: 15%;
-    width: 80%;
+.h2_horizontal{
+    margin-top: 0.5rem;
+}
+
+.ul_favoritos{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    border: 0.1rem solid black;
     margin: 0.5rem;
+    margin-top: 1.5rem;
     overflow: auto;
-    margin-bottom:15%;
-    padding-top:15%;
     align-items: flex-start;
-    padding: 0.5rem;
-    padding-left: 1rem;
 }
 
 .li_favoritos{
-    width:25%;
-    height: 5rem;
+    min-width:35%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 1.2rem 0 1.2rem 0;
-    align-items: flex-start;
-    justify-content: center;
+    justify-content: space-evenly;
 }
+
+.a_favoritos{
+    font-size: 0.8rem;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 
 .resultado_img{
     width:50%;
@@ -178,7 +190,13 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     height: 80%;
+    margin: 10%;
+    align-items: center;
 }
+
+
+
+
 .resultado_ul{
     height: 100%;
     width:80%;
@@ -195,7 +213,6 @@ main{
 .img_compra{
     max-width: 100%;
     max-height: 100%;
-    width: 100%;
 }
 
 .ingredientes_ul{
@@ -225,11 +242,129 @@ main{
     margin-bottom: 1rem;
 }
 
-.ul_receita{
+.ul_receita, .ul_compra_queijo{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
     text-align: left;
     font-size: 1rem;
+}
+
+.h2_compra_queijo{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.img_carrinho{
+    max-width: 100%;
+    max-height: 100
+}
+
+.header_carrinho{
+    display: flex;
+    flex-direction: column;
+    height:10%;
+    width: 100%;
+    border-bottom: .1rem solid #3F3F3F;
+    background-color: #37AD69;
+    justify-content: flex-end;
+
+}
+
+.header_carrinho li {
+    text-align: center;
+}
+
+
+.header_carrinho li h1 {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+}
+
+
+.header_inside_ul{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: white;
+    font-weight: 700;
+}
+
+.carrinho_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80%;
+    align-items: center;
+    text-align: center;
+}
+
+.carrinho_main h2{
+    font-weight: bold;
+    
+
+}
+
+.ul_carrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ul_info li{
+    margin: 0.5rem 0 0.5rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.ul_pagamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+
+
+.li_pagamento {
+    display: block;
+    box-shadow:.2rem .2rem .2rem #A6A29F;
+    font-size: 1rem;
+    padding: 0.1rem 0.5rem 0.1rem 0.5rem;
+    text-decoration: none;
+    border-radius: 0.1rem;
+    text-align: center;
+    color: #3F3E3E;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font-weight: bold;
+}
+
+.caixa{
+    margin: 1rem 0 1rem 0;
+    padding: 0.3rem 0 0.3rem 0;
+    border: 0.15rem solid black;
+    border-radius: 0.2rem;
+}
+
+.caixa h3 {
+    font-weight: bold;
+}
+
+.main_receitas{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10%;
+    font-size: 1.2rem;
+    text-align: center;
 }

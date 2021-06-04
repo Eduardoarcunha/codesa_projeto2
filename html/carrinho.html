@@ -5,41 +5,45 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/reset.css">
-        <link rel="stylesheet" href="../css/index.css">
+        <link rel="stylesheet" href="../css/style.css">
     </head>
     <body>
-        <header>
-            <h1>Carrinho</h1>
-            <ul>
-                <li>Entrega</li>
-                <li>Retirada</li>
+        <header class = 'header_carrinho'>
+            <ul class = 'header_outside_ul'>
+            
+                <li><h1>Carrinho</h1></li>
+
+                <li><ul class = 'header_inside_ul'>
+                    <li>Entrega</li>
+                    <li>Retirada</li>
+                    </ul>
+                </li>
             </ul>
         </header>
-        <main>
+        <main class = 'carrinho_main'>
             <h2>Entregar em: Rua Goais 480</h2>
-            <ul>
-                <li>
-                    <img src="../img/quata.png" alt="Queijo Quata">
-                    <p>INFORMAÇÕES NUTRICIONAIS: Cloreto de sódio,  Cloreto de Cálcio, Coagulante Quimosina e Corante Natural de Urucum. NÃO CONTÉM LACTOSE. ALÉRGICOS: CONTÉM GLUTEM.</p>
-                    <p>R$: 15,00</p>
+            <ul class = 'ul_carrinho'>
+                <li><img class = 'img_carrinho' src="../img/quata.png" alt="Queijo Quata"> </li>
+                <li><ul class = 'ul_info'>
+                        <li>INFORMAÇÕES NUTRICIONAIS: </li>
+                        <li>Cloreto de sódio,  Cloreto de Cálcio, Coagulante Quimosina e Corante Natural de Urucum.</li>
+                        <li>NÃO CONTÉM LACTOSE. ALÉRGICOS: CONTÉM GLUTEM.</li>
+                    </ul>
+                <li>R$: 15,00</li>
+                <li><ul class = 'caixa'>
+                    <li><h3>Forma de pagamento:</h3></li>
+                    <li><ul class="ul_pagamento">
+                            
+                            <li class = 'li_pagamento'> Cartao</li>
+                            <li class = 'li_pagamento'> Dinheiro</li>
+                            <li class = 'li_pagamento'> Outro</li>
+                            
+                        </ul></li>
+                    </ul>   
                 </li>
-                <ul>
-                    <h3>Forma de pagamento:</h3>
-                    <li>
-                        <a href ="Outro.html">Cartao</a>
-                    </li>
-                    <li>
-                        <a href ="Outro.html">Dinheiro</a>
-                    </li>
-                    <li>
-                        <a href ="Outro.html">Outro</a>
-                    </li>
-                </ul>
+            
             </ul>
-        
+            <a href ='acompanhamento.html' class = 'a_telainicial'>Confirmar</a>
         </main>
-        <footer>
-            <a>Confirmar</a>
-        </footer>
     </body>
 </html>
