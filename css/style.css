@@ -292,7 +292,6 @@ body {
 
 .img_carrinho{
     max-width: 100%;
-    max-height: 100
 }
 
 .header_carrinho{
@@ -333,8 +332,9 @@ body {
 .carrinho_main{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     height: 80%;
+    margin: 10%;
     align-items: center;
     text-align: center;
 }
