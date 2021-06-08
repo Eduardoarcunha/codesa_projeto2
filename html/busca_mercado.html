@@ -13,19 +13,19 @@
     <body>
 
         <header class = 'header'>
-                <a class="arrow"href ="tela_inicial.html" >
-                    <img class = "img_arrow" src="../img/back-arrow.png">
+                <a class="arrow" href ="tela_inicial.html" >
+                    <img class = "img_arrow" src="../img/back-arrow.png" alt="seta de voltar">
                 </a>
                 <h1> My Meal </h1>
         </header>
 
         <main class = 'main'>
-            <ul>
-                <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Buscar..."/><a href = 'resultados_queijo.html'><button id="btnBusca">Buscar</button></a></li>
+            <ul class="ul_buscar">
+                <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Buscar..."/><a class = 'a_buscar' href = 'resultados_queijo.html'>Buscar</a></li>
             </ul>
 
             <ul class="ul_filtros"> 
-                <h2 class="titulo_filtros">Filtros</h2>
+                <li class="titulo_filtros">Filtros</li>
 
                 <li class="li_filtros"> 
                     <img class = "img_filtros" src="../img/trigo.jpg" alt="Simbolo Celiacos">
@@ -38,22 +38,22 @@
                 </li>
 
                 <li class="li_filtros"> 
-                    <img class = "img_filtros"src="../img/acucar.jpg" alt="Simbolo Diabeticos">
+                    <img class = "img_filtros" src="../img/acucar.jpg" alt="Simbolo Diabeticos">
                     <a href ="Outro.html" class="a_filtros">Comidas para Diabéticos</a> 
                 </li>
 
                 <li class="li_filtros"> 
-                    <img class = "img_filtros"src="../img/lipidios.jpg" alt="Simbolo Dislipidemia">
+                    <img class = "img_filtros" src="../img/lipidios.jpg" alt="Simbolo Dislipidemia">
                     <a href ="Outro.html" class="a_filtros">Comidas sem lipidios</a> 
                 </li>
 
                 <li class="li_filtros"> 
-                    <img class = "img_filtros"src="../img/fibras.jpg" alt="Simbolo Constipação">
+                    <img class = "img_filtros" src="../img/fibras.jpg" alt="Simbolo Constipação">
                     <a href ="Outro.html" class="a_filtros">Comida rica em fibras</a> 
                 </li>
 
                 <li class="li_filtros"> 
-                    <img class = "img_filtros"src="../img/sal.jpg" alt="Simbolo Hipertenso">
+                    <img class = "img_filtros" src="../img/sal.jpg" alt="Simbolo Hipertenso">
                     <a href ="Outro.html" class="a_filtros">Comida sem sal</a> 
                 </li>
 
@@ -80,27 +80,27 @@
             </ul>
 
             <ul class = "ul_horizontal">
-                <li class = "li_horizontal">  <h2 class = 'h2_horizontal'>Seus mercados favoritos</h2>  </li>
+                <li class = "li_horizontal">  <p class = 'h2_horizontal'>Seus mercados favoritos</p>  </li>
                 
-                <ul class = "ul_favoritos">
+                <li class = 'branco'><ul class = "ul_favoritos">
                 
                     <li class = "li_favoritos"> 
-                        <img class="img_favoritos"src="../img/paodeacucar.jpg" alt="Simbolo Pão de Açúcar">
+                        <img class="img_favoritos" src="../img/paodeacucar.jpg" alt="Simbolo Pão de Açúcar">
                         <a class = "a_favoritos" href = "Outro.html" >Pão de Açucar</a> 
                     </li>
 
                     <li class = "li_favoritos"> 
-                        <img class="img_favoritos"src="../img/sitioverde.jpg" alt="Simbolo Sitio Verde">
+                        <img class="img_favoritos" src="../img/sitioverde.jpg" alt="Simbolo Sitio Verde">
                         <a class = "a_favoritos" href ="Outro.html" >Sitio Verde</a> 
                     </li>
                     
                     <li class = "li_favoritos"> 
-                        <img class="img_favoritos"src="../img/maisverde.jpg" alt="Simbolo Mais Verde">
+                        <img class="img_favoritos" src="../img/maisverde.jpg" alt="Simbolo Mais Verde">
                         <a class = "a_favoritos" href ="Outro.html" >Emporio Verde</a> 
                     </li>
 
                     <li class = "li_favoritos"> 
-                        <img class="img_favoritos"src="../img/naturaldafazenda.jpg" alt="Simbolo Natural da Fazenda Veg">
+                        <img class="img_favoritos" src="../img/naturaldafazenda.jpg" alt="Simbolo Natural da Fazenda Veg">
                         <a class = "a_favoritos" href ="Outro.html" >Emporio Natural</a> 
                     </li>
 
@@ -123,8 +123,7 @@
                         <img class="img_favoritos" src="../img/wallmart.png" alt="Simbolo Wallmart">
                         <a class = "a_favoritos" href ="Outro.html" >Wallmart</a> 
                     </li>
-                </ul>
-                    
+                </ul> </li>
             </ul> 
         </main>
     </body>
