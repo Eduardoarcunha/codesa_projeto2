@@ -6,19 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/resultado.js"></script>
+
     </head>
 
     <body>
          <header class = 'header'>
             <a href ="busca_receitas.html" >
-                <img class="arrow" src="../img/back-arrow.png" alt ='flecha'>
+                <img class="arrow" src="../img/back-arrow.png" alt ='seta de voltar'>
             </a>
             <h1> My Meal </h1>
         </header>
         
         <main class="resultado_main">
             <ul>
-            <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Creme de leite sem lactose"/><button id="btnBusca">Buscar</button></li>
+            <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Creme de leite sem lactose"/><img class = "img_lupa " src="../img/lupa.png" alt="lupa de busca"></li>
             </ul>
             
             <h2 class= "resultado_h2">
@@ -27,37 +29,34 @@
 
             <ul class = 'resultado_ul'>
                 <li class = 'resultado_li'>
-                <img class = 'resultado_img' src = "../img/italac.png" alt = ' '>
-                <a href = "compra_creme.html" class = 'resultado_a'>
-                    Creme de Leite sem Lactose Italac
-                </a>
+                    <a class = 'a_resultado' href ="compra_creme.html" >
+                    <img class = 'resultado_img' src = "../img/lactose1.jpg" alt = 'Queijo Quata'>
+                    <p class = 'texto'>
+                        Strogonoff de frango
+                    </p>
+                    </a>
                 </li>
     
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = "../img/itambe.png" alt = ' '>
-                    <a class = 'resultado_a'> 
-                        Creme de Leite sem Lactose Itambé
-                    </a>
+                    <img class = 'resultado_img' src = "../img/receitas2.png" alt = 'Escondidinho'>
+                    <p class = 'texto'>
+                        Escondidinho de Pernil
                     </li>
     
                 <li class = 'resultado_li'>
-                <img class = 'resultado_img'src = "../img/nestle.png" alt = ' '>
-                <a class = 'resultado_a'>
-                    Creme de Leite sem Lactose Nestlé
-                </a>
+                    <img class = 'resultado_img' src = "../img/receitas3.jpg" alt = 'Fusilli'>
+                    <p class = 'texto'>
+                        Fusilli com molho gorgonloza
+                    </p>
                 </li>
 
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = '../img/piracanjuba.png' alt = ' '>
-                    <a class = 'resultado_a'>
-                        Creme de Leite sem Lactose Piracanjuba
-                    </a>
+                    <img class = 'resultado_img' src = '../img/receitas4.jpg' alt = 'Linguine'>
+                    <p class = 'texto'>
+                        Linguine com molho rosé e 
+                    </p>
                 </li>
-
             </ul>
-
         </main>
-
     </body>
-
 </html>

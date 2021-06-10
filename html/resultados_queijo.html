@@ -6,49 +6,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/reset.css">
         <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/resultado.js"></script>
     </head>
 
     <body>
          <header class = 'header'>
             <a href ="busca_mercado.html" >
-                <img class="arrow" src="../img/back-arrow.png" alt ='flecha'>
+                <img class="arrow" src="../img/back-arrow.png" alt ='seta de voltar'>
             </a>
             <h1> My Meal </h1>
         </header>
         
         <main class="resultado_main">
-            <ul>
-            <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Queijo sem lactose"/><button id="btnBusca">Buscar</button></li>
+            <ul class = 'ul_buscar'>
+            <li><input class="pesquisa" type="text" id="txtBusca" placeholder="Queijo sem lactose"/><img class = "img_lupa " src="../img/lupa.png" alt="lupa de busca"></li>
             </ul>
             
-            <h2>
+            <h2 class= "resultado_h2">
                 Resultados
             </h2>
 
             <ul class = 'resultado_ul'>
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = "../img/quata.png" alt = ' '>
-                    <p class = 'texto'>
+                    <a class = 'a_resultado' href ="compra_queijo.html" >
+                    <img class = 'resultado_img' src = "../img/quata.png" alt = 'Queijo Quata'>
+                    <p class = 'texto'> 
                         Queijo sem Lactose Quatá
-                    </p>
+                    </p></a>
                 </li>
     
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = "../img/lacfree.jpg" alt = ' '>
+                    <img class = 'resultado_img' src = "../img/lacfree.jpg" alt = 'Queijo LacFree'>
                     <p class = 'texto'> 
                         Queijo sem Lactose LacFree
                     </p>
                 </li>
     
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = "../img/tirol.jpg" alt = ' '>
+                    <img class = 'resultado_img' src = "../img/tirol.jpg" alt = 'Queijo Tirol'>
                     <p class = 'texto'>
                         Queijo sem Lactose Tirol
                     </p>
                 </li>
 
                 <li class = 'resultado_li'>
-                    <img class = 'resultado_img' src = '../img/tirolez.png' alt = ' '>
+                    <img class = 'resultado_img' src = '../img/tirolez.png' alt = 'Queijo Tirolez'>
                     <p class = 'texto'>
                         Queijo sem Lactose Tirolez
                     </p>
